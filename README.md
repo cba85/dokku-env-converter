@@ -8,11 +8,11 @@ Basically, the script inline the `.env` file and add `dokku config:set` to creat
 
 ### Install globally
 
-1. Add execution rights to script:
+1. Add execution rights to the script:
     ```bash
     $ chmod +x dokku-env-converter.sh
     ```
-2. Create an alias in your `.bash_profile` or in your `.zshrc` file
+2. Create an alias in your `.bash_profile` or in your `.zshrc` file:
     ```bash
     alias dokku-env-converter='~/path/to/dokku-env-converter/dokku-env-converter.sh'
     ```
