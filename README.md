@@ -21,7 +21,7 @@ Basically, the script inline the `.env` file and add `dokku config:set` to creat
 
 ### Go to your PHP repository that contains the `.env` file:
 
-Example `.env` file:
+`.env` file example:
 
 ```
 DB_CONNECTION=mysql
