@@ -2,7 +2,7 @@
 
 A simple bash script to convert PHP `.env` file from package [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) to inlined variables for Dokku.
 
-Basically, the script inline the `.env` file and add `dokku config:set` to create the environement variables in Dokku.
+Basically, this script removes the comments (`#`) of the `.env` file, inlines it and adds `dokku config:set` to create the environement variables in Dokku.
 
 ## Installation
 
